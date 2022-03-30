@@ -1,5 +1,5 @@
-televizor
-laptop
-kompjuter
-tablet
-telefon
+televizor x2
+laptop x2
+kompjuter x2
+tablet x2
+telefon x2
