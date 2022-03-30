@@ -1,5 +1,5 @@
-televizor x2
-laptop x5
-kompjuter x2
-tablet x2
-telefon x5
+
+usb x2
+telefon x2
+slusalki x2
+>>>>>>> banch2
