@@ -1,0 +1,205 @@
+2.Го сменив името на гранката од линкот што беше даден во pdf-фајлот.
+3.креирав нов репозиториум на GitHub во Your repositories->new Repositories.
+Додадов и README file и додадов во него име презиме и број на индекс.
+
+4.Го клонирав репозиториумот со помош на командата git clone и линкот што се
+наога во делот Code,потоа влегов во фолдерот со cd.
+
+5.Ја креирав текстуалната датотека со командата nano shopping_list.txt ова
+команда овозможи да влезам во датотеката и да додадам 5 случајни производи.
+Потоа направив прво git add shopping_list.txt па потоа направив комит.
+
+6. Повторно се вратив во текстуалната датотека со командата nano shopping_list.txt
+и овој пат на претходно дефинираните ставки им додадов количина.Ове за да комитувам
+и додадам во исто време ја искористив командата git commit -a -m“Add quantities to the items"
+
+7.Креирав две гранки со командата git branch branch1,git branch branch2
+
+8.User@DESKTOP-IA90045 MINGW64 ~/Desktop/SI_2022_lab1_203077 (master)
+$ git log
+commit d833d17daf83685e833faea068fec38422b1f827 (HEAD -> master, branch2, branch1)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:54:58 2022 +0200
+
+    Add quantities to the items.
+
+commit 7ab0107960c0f00f9a23ade2f3e8cfc62f62f57b
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:53:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit bd324a7eccfdf2934c60353add5887af18d7776b (origin/master, origin/HEAD)
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:50:32 2022 +0200
+
+    Initial commit
+
+commit eed69017ec8830ccf657bb59d8d188ffbcac1f87
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:34:49 2022 +0200
+
+
+9.Ги додадов сите гранки на Github така што извршив git push origin master,git push origin brach1
+git push origin branch2.
+
+10.Се префрлив на гранката со помош на командата git checkout branch1.
+
+11.Повторно се вратив на нано едиторор,ја сменив количината на 5-тата ставка
+и направив commit i add истовремено.
+
+12.се вратив на гранка мастер со командата git checkout master
+
+13.Се вратив во нано едиторор ја сменив количината на втората ставка
+и направив commit i add истовремено.
+
+14.Ги додадов сите гранки на Github така што извршив git push origin master,git push origin brach1
+git push origin branch2.
+
+15.се вратив на гранка branch2 со командата git checkout branch2
+
+16.Повторно се вратив во едиторот,и го сменив името на ставка бр:4 во листата
+и направив commit i add истовремено..
+
+17.$ git log
+commit a7c22bf760ecf87a29b5681affbba326f4ba8b05 (HEAD -> branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 21:01:49 2022 +0200
+
+    “Modify item #4
+
+commit d833d17daf83685e833faea068fec38422b1f827 (origin/branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:54:58 2022 +0200
+
+    Add quantities to the items.
+
+commit 7ab0107960c0f00f9a23ade2f3e8cfc62f62f57b
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:53:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit bd324a7eccfdf2934c60353add5887af18d7776b
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:50:32 2022 +0200
+
+:...skipping...
+commit a7c22bf760ecf87a29b5681affbba326f4ba8b05 (HEAD -> branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 21:01:49 2022 +0200
+
+    “Modify item #4
+
+commit d833d17daf83685e833faea068fec38422b1f827 (origin/branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:54:58 2022 +0200
+
+    Add quantities to the items.
+
+commit 7ab0107960c0f00f9a23ade2f3e8cfc62f62f57b
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:53:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit bd324a7eccfdf2934c60353add5887af18d7776b
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:50:32 2022 +0200
+
+    Initial commit
+
+commit eed69017ec8830ccf657bb59d8d188ffbcac1f87
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:34:49 2022 +0200
+
+    Initial commit
+
+
+
+18.Повторно се вратив во едиторот,и додадов 6-та ставка.
+направив git add прво,па потоа за да ги спојам комитите ја извршив командта
+$ git commit --amend -m"Modify item #4 and add item #6"
+
+19.User@DESKTOP-IA90045 MINGW64 ~/Desktop/SI_2022_lab1_203077 (branch2)
+$ git log
+commit 92499afc91e2c86356c3387c65b7093a76400d60 (HEAD -> branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 21:03:58 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit a7c22bf760ecf87a29b5681affbba326f4ba8b05
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 21:01:49 2022 +0200
+
+    “Modify item #4
+
+commit d833d17daf83685e833faea068fec38422b1f827 (origin/branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:54:58 2022 +0200
+
+    Add quantities to the items.
+
+commit 7ab0107960c0f00f9a23ade2f3e8cfc62f62f57b
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:53:25 2022 +0200
+
+    Add 5 items to the shopping list
+:...skipping...
+commit 92499afc91e2c86356c3387c65b7093a76400d60 (HEAD -> branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 21:03:58 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit a7c22bf760ecf87a29b5681affbba326f4ba8b05
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 21:01:49 2022 +0200
+
+    “Modify item #4
+
+commit d833d17daf83685e833faea068fec38422b1f827 (origin/branch2)
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:54:58 2022 +0200
+
+    Add quantities to the items.
+
+commit 7ab0107960c0f00f9a23ade2f3e8cfc62f62f57b
+Author: Маринкова Александра <aleksandra.marinkova@students.finki.ukim.mk>
+Date:   Tue Mar 29 20:53:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit bd324a7eccfdf2934c60353add5887af18d7776b
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:50:32 2022 +0200
+
+    Initial commit
+
+commit eed69017ec8830ccf657bb59d8d188ffbcac1f87
+Author: Александра Маринкова <100380875+AleksandraMarinkova@users.noreply.github.com>
+Date:   Tue Mar 29 20:34:49 2022 +0200
+
+    Initial commit
+~
+~
+~
+~
+~
+~
+
+20.Овде не се случи конфликт,и беше употребена рекуризвната стратегија.
+Беа искористени командите:$ git checkout master и $ git merge branch1
+
+21.Да овде се случи конфликт.Конфликтот беше решен со тоа што прво направив
+$ git pull па потоа ја извршив командата $ git merge branch2 и овде се случи
+конфликтот па затоа се вратив во едиторот и го решив конфликтот со промените.
+потоа направив git add па $ git commit -m"Merge branch 'branch2' .
+Овде употребив рекуризивна стратегија.
+
+22.Ја додадов текстуалната даотека со git add 203077.txt и го направив комитот 
+со соодветната порака што беше дадена.
+
+23.push се на github.
+
