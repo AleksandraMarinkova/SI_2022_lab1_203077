@@ -1,0 +1,5 @@
+televizor
+laptop
+kompjuter
+tablet
+telefon
